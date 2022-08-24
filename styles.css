@@ -36,6 +36,22 @@ header {
   margin-top: 20px;
 }
 
+h3 {
+  font-size: 18px;
+  font-weight: normal;
+  text-align: center;
+  margin-top: 50px;
+}
+
+p {
+  font-weight: normal;
+}
+h2 {
+  font-size: 20px;
+}
+img {
+  width: 250px;
+}
 .sign-up {
   display: flex;
   align-items: center;
@@ -57,6 +73,7 @@ header {
   display: flex;
   flex-direction: row;
   align-items: center;
+  margin-bottom: 100px;
 }
 
 .try-btn {
@@ -68,20 +85,48 @@ header {
 }
 
 #main-img {
-  width: 500px;
+  width: 25%;
+  margin-right: 100px;
 }
 .featured-logos {
   width: 300px;
 }
 .free-sessions-btn {
-  padding: 12px;
   border-radius: 15px;
   color: white;
   background: linear-gradient(#ea9e3d, #ee7b38);
-  border: none;
-  width: 100px;
+
+  border-radius: 25px;
+
+  padding: 20px 20px;
 }
 
+.try-free-btn {
+  margin-top: 30px;
+}
+
+.try-free-btn > a {
+  font-size: 10px;
+  text-align: center;
+}
 .title-section {
-  flex: 0 400px;
+  /* flex: 0 1 100px; */
+  width: 500px;
+  margin-left: -50px;
+}
+.section-2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  /* margin-bottom: 100px; */
+  margin-top: 200px;
+  justify-content: space-around;
+}
+.left-section-2,
+.right-section-2 {
+  flex: 0 1 500px;
+}
+
+.logo {
+  width: 120px;
 }
